@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch -A --unstable main.ts",
+    "start": "deno run -A --unstable main.ts"
+  },
+  "imports": {
+      "hono": "https://deno.land/x/hono@v3.11.8/mod.ts",
+      "hono/cors": "https://deno.land/x/hono@v3.11.8/middleware.ts"
+  }
+}
